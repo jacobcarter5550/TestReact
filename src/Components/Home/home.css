@@ -1,0 +1,64 @@
+.body_rectangle{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background: #E3B76D;
+}
+
+.body_placeholder{
+    width: 100%;
+    height: 120vh;
+}
+
+.down_arrow{
+    position: absolute;
+    width: 150px;
+    height: 78px;
+    left: 44.7vw ;
+    top: 94.6vh;
+    z-index: 2;
+}
+
+.body_name_para{
+    margin-left: calc((100vw / 2) - 283.5px);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+/* identical to box height */
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+
+#para_white{ 
+    color: #ffffff;
+}
+
+.body_connect_para{
+    display: flex;
+    margin-left: calc((100vw / 2) - 22.5vw);
+    height: 490px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+
+.body_connect_para p{
+    width: 45vw;
+    height: 520px;
+}
+
+.aboutshit{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
